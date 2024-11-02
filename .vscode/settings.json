@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "AreaOfACircleINPUT.C": "cpp",
+        "AreaOfACircleTakingInputFromUser.C": "cpp",
+        "floatdatatype.C": "cpp"
+    }
+}
