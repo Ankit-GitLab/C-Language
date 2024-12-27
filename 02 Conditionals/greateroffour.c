@@ -2,13 +2,13 @@
 int main()
 {
   int a, b, c, d;
-  printf("Enter number of A :");
+  printf("Enter number of A : ");
   scanf("%d", &a);
-  printf("Enter number of B :");
+  printf("Enter number of B : ");
   scanf("%d", &b);
-  printf("Enter number of C :");
+  printf("Enter number of C : ");
   scanf("%d", &c);
-  printf("Enter number of D :");
+  printf("Enter number of D : ");
   scanf("%d", &d);
   if (a > b && a > c && a > b)
   {

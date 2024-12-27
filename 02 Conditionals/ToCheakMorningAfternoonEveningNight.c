@@ -2,7 +2,7 @@
 int main()
 {
     float N;
-    printf("Enter time To Cheak Morning Afternoon Evening Night: ");
+    printf("Enter time To Cheak Morning, Afternoon, Evening, Night : ");
     scanf("%f", &N);
     if (N <= 11)
     {

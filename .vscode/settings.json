@@ -3,5 +3,8 @@
         "AreaOfACircleINPUT.C": "cpp",
         "AreaOfACircleTakingInputFromUser.C": "cpp",
         "floatdatatype.C": "cpp"
-    }
+    },
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error"
+    ]
 }
