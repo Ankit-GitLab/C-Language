@@ -9,7 +9,6 @@ int main() {
     scanf("%lf", &num1);
     printf("Enter an operator (+, -, *, /) : ");
     scanf(" %c", &operator);
-
     printf("Enter second numbers : ");
     scanf("%lf", &num2);
 

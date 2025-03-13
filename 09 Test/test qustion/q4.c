@@ -5,12 +5,11 @@ int main(){
     int n, i =0;
     printf("Enter a number : ");
     scanf("%d",&n);
-    int f = 1;
+    int p = 1;
     for(i=1; i<=n; i++){
-        f = f*i;
-       printf("%d factorial is : %d\n",i,f); 
+        p *= i;
     }
-    
+    printf("the factorial of %d is : %d\n",n,p);
     return 0;
 }
  

@@ -2,7 +2,7 @@
 int main(){
     int i=1;
     while(i<10){
-        printf("%d",i);
+        printf("%d\n",i);
         i = i-1;
     }
     return 0;
