@@ -9,7 +9,5 @@ int main (){
         product = product*i;
        printf("The Factorial %d is : %d\n", i,product);  
     }
-    
-   
     return 0;
 }
