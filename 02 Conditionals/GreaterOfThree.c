@@ -1,24 +1,25 @@
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int A, B, C;
-    printf("Enter a number A : ");
+
+    // Taking input from user
+    printf("Enter A number : ");
     scanf("%d", &A);
-    printf("Enter a number B : ");
+
+    printf("Enter B number : ");
     scanf("%d", &B);
-    printf("Enter a number C : ");
+
+    printf("Enter C number : ");
     scanf("%d", &C);
-    if (A > B && A > C)
-    {
+
+    // Finding and displaying the largest number
+    if (A >= B && A >= C) {
         printf("A is greater than b and c");
-    }
-    if (B > A && B > C)
-    {
+    } else if (B >= A && B >= C) {
         printf("B is greater than a and c");
-    }
-    if (C > A && C > B)
-    {
-        printf("c is greater than a and b");
-    }
+    } else {
+        printf("C is greater than a and b");    }
+
     return 0;
 }
