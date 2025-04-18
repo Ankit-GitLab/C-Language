@@ -2,16 +2,17 @@
 int main(){
 
     //Taking input
-    int RollNo;
-    printf("Enter number of student : ");
-    scanf("%d",&RollNo);
-    printf("Enter total element : %d\n",RollNo*4);
-    printf("Enter Roll No, Physics, chemistry, math...Marks\n");
-    int arr[RollNo][4]; // // Roll No, Physics, Chemistry, Math
+    int r,c;
+    printf("Enter number of row : ");
+    scanf("%d",&r);
+    printf("Enter number of column : ");
+    scanf("%d",&c);
+    printf("Enter total element : %d\n",r*c);
+    int arr[r][c]; 
 
     //Input matrix...
-    for(int i=0; i<RollNo; i++){
-        for(int j=0; j<4; j++){
+    for(int i=0; i<r; i++){
+        for(int j=0; j<c; j++){
             scanf("%d",&arr[i][j]);
         }
     }
@@ -19,8 +20,8 @@ int main(){
 
     // Print matrix...
     printf("Your matrix is below\n");
-    for(int i=0; i<RollNo; i++){
-        for(int j=0; j<4; j++){
+    for(int i=0; i<r; i++){
+        for(int j=0; j<c; j++){
             printf("%d ",arr[i][j]);
         }
         printf("\n");
@@ -29,8 +30,8 @@ int main(){
     //sum print
     int sum =0;
     printf("SUm of all\n");
-    for(int i=0; i<RollNo; i++){
-        for(int j=0; j<4; j++){
+    for(int i=0; i<r; i++){
+        for(int j=0; j<c; j++){
            sum += arr[i][j];
         }
     }
