@@ -18,11 +18,20 @@ int main() {
     // Declare a pointer to the structure
     struct Student *ptr = &Ankit;
 
+    // Print student details directly from the structure
+    printf("\nStudent Name: %s   Roll No: %d    Marks: %.2f", 
+        Ankit.name, Ankit.rollNo, Ankit.marks);
+
+
     // Call function that accepts structure by value
     print_student(Ankit);
 
     // Call function that accepts structure by pointer
     print_student_from_pointer(ptr);
+
+      // Print student details again to show updated roll number after pointer function call
+    printf("\nStudent Name: %s   Roll No: %d    Marks: %.2f", 
+        Ankit.name, Ankit.rollNo, Ankit.marks);
 
     return 0;   // End of program
 }
@@ -35,6 +44,7 @@ void print_student(struct Student stu) {
 
 // Function to print student details passed by pointer
 void print_student_from_pointer(struct Student *stu) {
+    stu->rollNo = 246003;
     printf("\nStudent Name: %s   Roll No: %d    Marks: %.2f", 
         stu->name, stu->rollNo, stu->marks);  // Use -> to access structure members via pointer
 }

@@ -10,15 +10,15 @@ int main()
     // mark n>80 -> grade D
     if (N > 80)
     {
-        printf("A grade");
+        printf("A grade mark is : %d\n",N);
     }
     else if (N > 60)
     {
-        printf("B grade");
+        printf("B grade mark is : %d\n",N);
     }
     else if (N > 40)
     {
-        printf("C grade");
+        printf("C grade mark is : %d\n",N);
     }
     else
     {
