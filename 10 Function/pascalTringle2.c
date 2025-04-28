@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    printf("Enter n number : ");
+    printf("Enter number to print the pascal Tringle : ");
     scanf("%d",&n);
     for(int i=0; i<=n; i++){
         int first = 1;
