@@ -11,7 +11,7 @@ int main() {
     stu Ankit = {3, "Ankit", 95.0}; // Initializing a structure variable 'Ankit'
 
     // Printing the details of the student
-    printf("\nStudent Name: %s, Roll No: %d, Marks: %.2f", 
+    printf("Student Name: %s, Roll No: %d, Marks: %.2f\n", 
            Ankit.name, Ankit.rollNo, Ankit.marks);
 
     return 0; // Returning 0 to indicate successful execution

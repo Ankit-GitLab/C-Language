@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    int b;
-    scanf("%d",&b);
-    int product = a * b;
-    printf("Product : %d",product);
+    int n = 5;
+    int p =1;
+    for(int i=1; i<=n; i++){
+        p *= i;
+    }
+    printf("The factaial : %d\n",p);
     return 0;
 }
