@@ -1,7 +1,7 @@
 #include<stdio.h>
 void decreasing(int n){
     if(n==0) return ;
-        printf("%d\n",n);
+        printf("%d ",n);
         decreasing(n-1);
 return ;
 }

@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-    int n = 5;
-    int p =1;
-    for(int i=1; i<=n; i++){
-        p *= i;
+    
+    for(int i=1; i<=500; i++){
+     printf("😔 Sorry for saying motki (%d) time\n",i);
     }
-    printf("The factaial : %d\n",p);
+    
     return 0;
 }
