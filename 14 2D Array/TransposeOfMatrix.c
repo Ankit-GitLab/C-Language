@@ -12,7 +12,7 @@ int main() {
     int arr[r][c]; // Declare a 2D array with given size
 
     // Input the matrix elements
-    printf("Enter total elements %d:\n", r * c);
+    printf("Enter total elements : %d\n", r * c);
     for(int i = 0; i < r; i++) {
         for(int j = 0; j < c; j++) {
             scanf("%d", &arr[i][j]);

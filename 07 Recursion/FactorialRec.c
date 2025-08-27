@@ -1,14 +1,19 @@
 #include<stdio.h>
-int factorial(int n){ 
-    if(n==1 || n==0) return 1;
-    int recAns = n*factorial(n-1);
-    return recAns;
+
+// Recursive function to calculate Factorial
+int factorial(int n) {
+    if(n == 0 || n == 1)  // base case
+        return 1;
+    else
+        return n * factorial(n - 1);  // recursion step
 }
-int main(){
-    int n;
-    printf("Enter a number : ");
-    scanf("%d",&n);
-    int fact = factorial(n);
-    printf("The factorial number %d is : %d",n,fact);
+
+int main() {
+    int n, i;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    for(i = 1; i <=n; i++) {
+       printf("Factorial of %d is: %d\n", i, factorial(i));
+    }
     return 0;
 }
