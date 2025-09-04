@@ -10,7 +10,7 @@ int main() {
     printf("Fibonacci Series up to %d terms : ", n);
 
     for (int i = 1; i <= n; i++) {
-        printf("%d ", first);
+        printf("%d ", first);   
         next = first + second;
         first = second;
         second = next;
