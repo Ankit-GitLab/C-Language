@@ -14,6 +14,8 @@ void search();
 void display();
 
 int main() {
+        printf("program by Ankit, roll_no 246003\n");
+
     int choice;
     do {
         printf("\n1. Insert  2. Delete  3. Search  4. Display  5. Exit\n");

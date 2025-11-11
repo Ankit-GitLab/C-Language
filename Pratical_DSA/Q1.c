@@ -7,6 +7,7 @@ void search(int arr[], int n);
 void display(int arr[], int n);
 
 int main() {
+    printf("program by Ankit, roll_246003\n");
     int arr[MAX], n, choice;
     printf("Enter number of elements: ");
     scanf("%d", &n);
