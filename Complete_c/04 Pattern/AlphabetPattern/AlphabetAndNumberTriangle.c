@@ -19,8 +19,8 @@ int main()
             {
                 printf("%c ", a++);
             }
-        a = 'A';
-
+         a = 'A';
+        
         printf("\n");
     }
     return 0;
