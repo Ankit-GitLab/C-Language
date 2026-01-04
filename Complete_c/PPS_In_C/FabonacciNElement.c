@@ -13,4 +13,16 @@ int fibonacci(int n) {
 int main() {
     int n; 
 
+    printf("Enter how many Fibonacci numbers you want to print: ");
+    scanf("%d", &n); 
+    
+    printf("Fibonacci Series up to %d terms:\n", n);
+
+    
+    for (int i = 0; i < n; i++) {
+        printf("%d ", fibonacci(i)); 
+    }
+
+    printf("\n"); 
+    return 0; 
 }

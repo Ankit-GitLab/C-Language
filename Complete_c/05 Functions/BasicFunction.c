@@ -1,14 +1,8 @@
 #include <stdio.h>
-void Greet()
-{
-    printf("Good morning\n");
-    printf("How are you ?\n");
-    return;
-}
-int main()
-{
-    Greet();
-    Greet();
+    void Greet(){
+     printf("Omshri");
+    }
+int main(){
     Greet();
     return 0;
 }
