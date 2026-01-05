@@ -1,11 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-int binarySearch(int arr[], int n, int key)
-{
+int binarySearch(int arr[], int n, int key){
     int low = 0, high = n - 1;
 
-    while (low <= high)
-    {
+    while (low <= high){
         int mid = (low + high) / 2;
 
         if (arr[mid] == key)
@@ -18,9 +15,7 @@ int binarySearch(int arr[], int n, int key)
     return -1;
 }
 
-int main()
-{
-     system("cls");
+int main(){
     int key;
     printf("Enter number to find the key: ");
     scanf("%d", &key);
